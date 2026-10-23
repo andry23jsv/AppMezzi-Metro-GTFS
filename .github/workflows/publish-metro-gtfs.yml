@@ -3,7 +3,7 @@ name: Publish metro-only GTFS
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4 * * 0'
+    - cron: '17 4 * * *'
 
 permissions:
   contents: write
